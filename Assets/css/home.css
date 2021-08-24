@@ -6,5 +6,51 @@ body{
 #page-heading{
     text-align:center;
     margin-top:25px;
-    color:grey;
+    color:rgba(0, 0, 0, 0.705);
+}
+ul {
+    display: inline;
+    justify-content: space-between;
+  }
+  li{
+      display: inline;
+  }
+ #details{
+     display: inline-flex;
+     min-width: 300px;
+     max-width: 400px;
+     max-height: 7;
+     min-height: 5;
+ }
+ #phone{
+     min-width: 150px;
+     max-width: 200px;
+ }
+ #name{
+     min-width: 150px;
+     max-width: 200px;
+ }
+ #delete-button{
+     display: inline;
+     background-color: red;
+ }
+ #form{
+     margin-top: 10;
+     text-align: center;
+ }
+ div{
+     margin-bottom: 0.5;
+ }
+ li{
+     margin-left: 450;
+     margin-bottom: 0.5;
+     margin-top: 0em;
+     background-color: rgb(199, 151, 48);
+    border-bottom: 5;
+    border-color: black;
+    border-style: solid;
+    /* background: whitesmoke;     */
+}
+     li:hover{
+    background-color: rgb(29, 235, 118);
 }
